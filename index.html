@@ -3,83 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Style Your World - E-commerce Landing Page</title>
+    <title>StyleYourWorld</title>
     <style>
-        /* CSS styles can be added here */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
         }
-
         header {
-            background-color: #333;
+            background-color: #343a40;
             color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
             padding: 20px;
-        }
-
-        .banner {
-            background-image: url('banner.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 400px;
             text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
-
-        .banner h1 {
-            font-size: 3em;
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #about {
+            padding: 30px;
+            background: #fff;
+            margin: 20px 0;
+        }
+        #about img {
+            float: left;
+            margin-right: 20px;
+            width: 40%;
+        }
+        #about h2 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #343a40;
             color: #fff;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-
-        .cta-button {
-            background-color: #4CAF50;
-            border: none;
-            color: white;
-            padding: 15px 32px;
             text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin-top: 20px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        .cta-button:hover {
-            background-color: #45a049;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Welcome to Style Your World!</h1>
-</header>
-
-<div class="banner">
-    <h1>Discover Your Style</h1>
-    <a href="#shop-now" class="cta-button">Shop Now</a>
-</div>
-
-<div class="container">
-    <h2 id="shop-now">Shop Now</h2>
-    <p>This is where you can describe your products and services, and provide links or buttons to guide users to your shop.</p>
-</div>
-
-<footer>
-    <p>&copy; 2024 Style Your World. All rights reserved.</p>
-</footer>
-
+    <header>
+        <h1>Welcome to StyleYourWorld</h1>
+    </header>
+    
+    <div class="container">
+        <section id="about">
+            <img src="https://img.freepik.com/premium-photo/fashion-model-outdoor-portrait-tourist-woman-enjoying-sightseeing-lviv-girl-looking-ancient-atchitecture_106029-855.jpg" alt="Fashion Image">
+            <h2>About Us</h2>
+            <p>Welcome to StyleYourWorld, your number one source for all things fashion. We're dedicated to providing you the very best of clothing, with an emphasis on quality, uniqueness, and customer service.</p>
+            <p>Founded in 2024, StyleYourWorld has come a long way from its beginnings. When we first started out, our passion for eco-friendly fashion drove us to start our own business.</p>
+            <p>We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 StyleYourWorld. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
